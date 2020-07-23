@@ -76,6 +76,12 @@ comments, is below.
 	; An example of how a ramdisk module may be specified.
     MODULE rootfs md_image dso100.fs
 
+# Building
+
+BSDBootImageBuilder may be built using normal CMake procedures, and is
+generally designed to be run on the host machine in an embedded development
+cycle.
+
 # Licensing
 
 BSDBootImageBuilder is licensed under the terms of the MIT license (see LICENSE).
